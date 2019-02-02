@@ -27,36 +27,54 @@
 }
 
 .title-text {
-	font-weight: lighter;
+	font-weight: bold;
 	font-family: bookman;
 	font-size: 3em;
 	color: #ecf0f1;
 }
 
 .button-divider {
-	padding-left: 3em;
-	padding-right: 3em;
-	margin-left: 2em;
-	margin-right: 2em;
-	margin-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
 	margin-bottom: 1em;
 	font-size: 25px;
 }
 
-.btn-calculate {
-  color: #fff;
-  background-color: #00b09b;
-  border-color: #00b09b;
-}
-.btn-calculate:hover {
-  color: #fff;
-  background-color: #007b6c;
-  border-color: #00584d;
-}
-.btn-calculate:focus, .btn-calculate.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 88, 77, 0.50);
+.control-text {
+	font-weight: lighter;
+	font-family: bookman;
+	font-size: 2em;
+	color: #696969;
 }
 
-button {
+.table_space {
+	padding-bottom: 3em;
+}
+
+@media only screen and (max-width: 850px) {
+	.w-50 {
+		width: 100% !important;
+	}
+	.title-text {
+		font-weight: lighter;
+		font-family: bookman;
+		font-size: 2em;
+	}
+	.button-divider {
+		padding-left: 2em;
+		padding-right: 2em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		margin-bottom: 0.5em;
+		font-size: 20px;
+	}
+	.control-text {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
 
 }
