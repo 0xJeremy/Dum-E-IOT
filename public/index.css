@@ -1,0 +1,62 @@
+.bg {
+	height: 100%;
+	position: fixed;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient(#00b09b, #96c93d);
+	background: -moz-linear-gradient(#00b09b, #96c93d);
+	background: -ms-linear-gradient(#00b09b, #96c93d);
+	background: -o-linear-gradient(#00b09b, #96c93d);
+	background: linear-gradient(#00b09b, #96c93d);
+}
+
+.bg-inner {
+	background: #ecf0f1;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.center-vertical {
+	padding-top: 5em;
+}
+
+.title-text {
+	font-weight: lighter;
+	font-family: bookman;
+	font-size: 3em;
+	color: #ecf0f1;
+}
+
+.button-divider {
+	padding-left: 3em;
+	padding-right: 3em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 25px;
+}
+
+.btn-calculate {
+  color: #fff;
+  background-color: #00b09b;
+  border-color: #00b09b;
+}
+.btn-calculate:hover {
+  color: #fff;
+  background-color: #007b6c;
+  border-color: #00584d;
+}
+.btn-calculate:focus, .btn-calculate.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 88, 77, 0.50);
+}
+
+button {
+
+}
