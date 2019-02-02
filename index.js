@@ -26,7 +26,14 @@ app.get('/', function(req, res) {
 	res.render('index.html');
 });
 
-app.post('/perform_action', function(req, res){
+app.post('/jarvis', function(req, res){
+    console.log('POST /');
+    console.dir(req.body);
+    action = req.body.value;
+    res.writeHead(200, {'Content-Type': 'text/html'});
+});
+
+app.post('/friday', function(req, res){
     console.log('POST /');
     console.dir(req.body);
     action = req.body.value;
@@ -34,7 +41,21 @@ app.post('/perform_action', function(req, res){
     res.end('thanks');
 });
 
-app.get('/get_action', function(req, res) {
+app.post('/virgil', function(req, res){
+    console.log('POST /');
+    console.dir(req.body);
+    action = req.body.value;
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end('thanks');
+});
+
+app.get('/get_jarvis', function(req, res) {
+	res.send(action)
+});
+app.get('/get_friday', function(req, res) {
+	res.send(action)
+});
+app.get('/get_virgil', function(req, res) {
 	res.send(action)
 });
 
