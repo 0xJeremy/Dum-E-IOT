@@ -2,7 +2,7 @@ var xhr = new XMLHttpRequest();
 var selected_robot = "jarvis";
 
 function get_endpoint() {
-	var endpoint = "https://polar-basin-16965.herokuapp.com/" + selected_robot;
+	var endpoint = "https://makeharvard-mk1.herokuapp.com/" + selected_robot;
 	return endpoint
 }
 
