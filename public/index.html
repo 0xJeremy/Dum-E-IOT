@@ -24,36 +24,75 @@
 					</div>
 				</div>
 
-				<p class="control-text">// base controls //</p>
-				<div class="row">
-					<div class="col">
-						<button id="b90" type="button" class="btn btn-info button-divider">+90°</button>
-						<button id="b180" type="button" class="btn btn-info button-divider">+180°</button>
-					</div>
-				</div>
-				<div class="row table_space">
-					<div class="col">
-						<button id="bn90" type="button" class="btn btn-info button-divider">-90°</button>
-						<button id="bn180" type="button" class="btn btn-info button-divider">-180°</button>
-					</div>
-				</div>
-
-				<p class="control-text">// primary joint controls //</p>
-				<div class="row table_space">
-					<div class="col">
-						<button id="p0" type="button" class="btn btn-info button-divider">0°</button>
-						<button id="p45" type="button" class="btn btn-info button-divider">45°</button>
-						<button id="p90" type="button" class="btn btn-info button-divider">90°</button>
-					</div>
-				</div>
-
 				<p class="control-text">// gripper controls //</p>
-				<div class="row">
+				<div class="row table_space">
 					<div class="col">
-						<button id="gopen" type="button" class="btn btn-info button-divider">Open</button>
-						<button id="gclose" type="button" class="btn btn-info button-divider">Close</button>
+						<button onclick="send_post('go')" type="button" class="btn btn-info button-divider">open</button>
+						<button onclick="send_post('gc')" type="button" class="btn btn-info button-divider">close</button>
 					</div>
 				</div>
+
+				<p class="control-text">// wrist controls //</p>
+				<div class="row">
+					<div class="col">
+						<button onclick="send_post('w0')" id="w0" type="button" class="btn btn-info button-divider">0°</button>
+						<button onclick="send_post('w45')" id="w45" type="button" class="btn btn-info button-divider">45°</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<button onclick="send_post('w90')" id="bn90" type="button" class="btn btn-info button-divider">90°</button>
+						<button onclick="send_post('w135')" id="bn180" type="button" class="btn btn-info button-divider">135°</button>
+					</div>
+				</div>
+				<div class="row table_space">
+					<div class="col">
+						<button onclick="send_post('w180')" id="bn90" type="button" class="btn btn-info button-divider">180°</button>
+					</div>
+				</div>
+
+				<p class="control-text">// elbow controls //</p>
+				<div class="row">
+					<div class="col">
+						<button onclick="send_post('e0')" id="b90" type="button" class="btn btn-info button-divider">0°</button>
+						<button onclick="send_post('e45')" id="b180" type="button" class="btn btn-info button-divider">45°</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<button onclick="send_post('e90')" id="bn90" type="button" class="btn btn-info button-divider">90°</button>
+						<button onclick="send_post('e135')" id="bn180" type="button" class="btn btn-info button-divider">135°</button>
+					</div>
+				</div>
+				<div class="row table_space">
+					<div class="col">
+						<button onclick="send_post('e180')" id="bn90" type="button" class="btn btn-info button-divider">180°</button>
+					</div>
+				</div>
+
+				<p class="control-text">// shoulder controls //</p>
+				<div class="row">
+					<div class="col">
+						<button onclick="send_post('s0')" id="b90" type="button" class="btn btn-info button-divider">0°</button>
+						<button onclick="send_post('s45')" id="b180" type="button" class="btn btn-info button-divider">45°</button>
+					</div>
+				</div>
+				<div class="row table_space">
+					<div class="col">
+						<button onclick="send_post('s90')" id="bn90" type="button" class="btn btn-info button-divider">90°</button>
+					</div>
+				</div>
+
+				<p class="control-text">// base controls //</p>
+				<div class="row table_space">
+					<div class="col">
+						<button onclick="send_post('bf')" id="gopen" type="button" class="btn btn-info button-divider">clockwise</button>
+						<button onclick="send_post('br')" id="gclose" type="button" class="btn btn-info button-divider">counterclockwise</button>
+					</div>
+				</div>
+
+
+			
 			</div>
 		</div>
 	</div>
