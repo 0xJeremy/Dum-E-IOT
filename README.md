@@ -6,4 +6,4 @@ This project was made for MakeHarvard 2019 and is intended as a teaching tool fo
 
 A wiring diagram is not currently available but will be created in the near future.
 
-![alt text](https://github.com/0xJeremy/Dum-E-IOT/images/image1.jpeg "Dum-E IOT Arms")
+![alt text](https://raw.githubusercontent.com/0xJeremy/Dum-E-IOT/master/images/image1.jpeg "Dum-E IOT Arms")
