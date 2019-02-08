@@ -7,3 +7,5 @@ This project was made for MakeHarvard 2019 and is intended as a teaching tool fo
 A wiring diagram is not currently available but will be created in the near future.
 
 ![alt text](https://raw.githubusercontent.com/0xJeremy/Dum-E-IOT/master/images/image1.jpeg "Dum-E IOT Arms")
+
+### NOTE: NodeMCU will not flash if 6V battery pack is off. Turn on 6V power to flash board.
