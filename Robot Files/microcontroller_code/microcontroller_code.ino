@@ -17,7 +17,7 @@
 #define minPulseCont 700
 #define maxPulseCont 2300
 #define timeWaitAngle 25
-#define timeWaitSpeed 50
+#define timeWaitSpeed 100
 
 // Define constants for wifi
 const char* ssid = "iPhone";
@@ -46,6 +46,7 @@ void turnContServo(Servo &thisServo, bool cw, int minPulse, int maxPulse){
     thisServo.writeMicroseconds(maxPulse);
     delay(timeWaitSpeed);
   }
+  thisServo.writeMicroseconds((maxPulse + minPulse)/2);
 }
 
 // get_action - get action command from website
@@ -53,7 +54,7 @@ String get_action() {
   String payload = "error";
     if (WiFi.status() == WL_CONNECTED) {
       HTTPClient http;
-      http.begin("http://makeharvard-mk1.herokuapp.com/get_friday");  //Change per robot
+      http.begin("http://makeharvard-mk1.herokuapp.com/get_jarvis");  //Change per robot
       int httpCode = http.GET();
       if (httpCode > 0) {
         payload = http.getString();
