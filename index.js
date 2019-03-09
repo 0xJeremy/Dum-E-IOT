@@ -52,7 +52,6 @@ app.post('/virgil', function(req, res){
 });
 
 app.get('/get_jarvis', function(req, res) {
-<<<<<<< HEAD
 	res.send(action_jarvis)
 });
 app.get('/get_friday', function(req, res) {
@@ -60,15 +59,6 @@ app.get('/get_friday', function(req, res) {
 });
 app.get('/get_virgil', function(req, res) {
 	res.send(action_virgil)
-=======
-    res.send(action_jarvis)
-});
-app.get('/get_friday', function(req, res) {
-    res.send(action_friday)
-});
-app.get('/get_virgil', function(req, res) {
-    res.send(action_virgil)
->>>>>>> 968c7dfbe29be4aa5e7b22a9b2f8cb577d3eee0d
 });
 
 app.listen(PORT, function() { console.log("Listening on port " + PORT)});
