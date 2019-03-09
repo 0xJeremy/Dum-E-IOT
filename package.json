@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "Dum-E-IOT",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "IOT Robotic Arm",
   "engines": {
     "node": "10.x"
   },
@@ -21,12 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/0xJeremy/Dum-E-IOT"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "robot",
+    "IOT"
   ],
   "license": "MIT"
 }

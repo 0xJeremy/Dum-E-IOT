@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
+  "name": "Dum-E IOT",
+  "description": "A lightweight robotic arm swarm",
+  "repository": "https://github.com/0xJeremy/Dum-E-IOT",
+  "logo": "",
+  "keywords": ["node", "express", "heroku", "robotic", "swarm", "IOT"],
   "image": "heroku/nodejs"
 }
